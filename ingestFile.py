@@ -43,7 +43,6 @@ with open(fileName) as f:
             #del item['object_marking_refs']
             #print(item)
     objStr = json.dumps(data)
-    print((objStr))
     #client.push(objStr, 'urn:stix.mitre.org:json:2.1',uri='/services/inbox-a',collection_names=['collection-a'])
     #print(obj)
 
